@@ -23,7 +23,7 @@ struct ContentView: View {
                     case .functional:
                         FunctionalPhrasesView()
                     case .reading:
-                        StoryView()
+                        StoryGeneratorView()
                     case .none:
                         LandingView()
                     }
